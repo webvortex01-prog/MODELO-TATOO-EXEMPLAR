@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vortex-bg: #050505;
+  --color-vortex-green: #adff2f;
+  --color-vortex-purple: #9333ea;
+  --color-vortex-gray: #1a1a1a;
+  --color-vortex-panel: #0a0a0a;
+}
+
+body {
+  background-color: var(--color-vortex-bg);
+  color: #e5e5e5;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #9333ea;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #adff2f;
+}
+
+/* Base Inputs */
+input, textarea, select {
+  background-color: var(--color-vortex-gray);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: white;
+  transition: all 0.3s;
+}
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--color-vortex-green);
+  box-shadow: 0 0 5px rgba(173,255,47,0.3);
+}
+
+/* Bento Grid Theme Classes */
+.neon-border-lime, .neon-border-green {
+  border: 1px solid var(--color-vortex-green);
+  box-shadow: 0 0 8px rgba(173, 255, 47, 0.2);
+}
+
+.neon-border-purple {
+  border: 1px solid var(--color-vortex-purple);
+  box-shadow: 0 0 8px rgba(147, 51, 234, 0.2);
+}
+
+.neon-text-lime, .neon-text-green {
+  color: var(--color-vortex-green);
+  text-shadow: 0 0 5px var(--color-vortex-green);
+}
+
+.glow-bar {
+  background: linear-gradient(90deg, var(--color-vortex-green), var(--color-vortex-purple));
+  box-shadow: 0 0 15px rgba(173, 255, 47, 0.4);
+}
+
+.sidebar-item:hover {
+  background: rgba(147, 51, 234, 0.1);
+  border-left: 4px solid var(--color-vortex-purple);
+}
+
+.bg-grid {
+  background-image: radial-gradient(rgba(173, 255, 47, 0.05) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+.glass {
+  background: rgba(17, 17, 17, 0.8);
+  backdrop-filter: blur(10px);
+}
+
