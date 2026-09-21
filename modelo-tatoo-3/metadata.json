@@ -1,0 +1,6 @@
+{
+  "name": "Ortiz Tattoo - Cyber-Street",
+  "description": "Sistema completo de agendamento e gestão para estúdios de tatuagem, com estética Dark/Neon Cyber-Street.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
