@@ -61,7 +61,7 @@ const defaultState: AppState = {
   appointments: [],
   revenue: 0,
   monthlyGoal: 5000,
-  notes: 'Salves e lembretes para o Ortiz Tattoo Studio! Organização de materiais e orçamentos fechados na semana.',
+  notes: 'Salves e lembretes para o 01 Tattoo Studio! Organização de materiais e orçamentos fechados na semana.',
   availableHours: ['10:00', '14:00', '17:00', '20:00'],
   waitlist: [],
   flashArts: [
@@ -76,7 +76,7 @@ const defaultState: AppState = {
 
 export function loadState(): AppState {
   try {
-    const saved = localStorage.getItem('ortiz_tattoo_state') || localStorage.getItem('vortex_state');
+    const saved = localStorage.getItem('01_tattoo_state') || localStorage.getItem('ortiz_tattoo_state') || localStorage.getItem('vortex_state');
     if (saved) {
       const parsed = JSON.parse(saved);
       if (!parsed.availableHours) {
@@ -92,5 +92,5 @@ export function loadState(): AppState {
 
 
 export function saveState(state: AppState) {
-  localStorage.setItem('ortiz_tattoo_state', JSON.stringify(state));
+  localStorage.setItem('01_tattoo_state', JSON.stringify(state));
 }

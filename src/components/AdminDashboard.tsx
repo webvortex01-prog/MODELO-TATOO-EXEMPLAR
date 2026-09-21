@@ -17,7 +17,7 @@ export function AdminDashboard() {
       <aside className="fixed left-0 top-0 w-[260px] h-screen bg-[#050505] border-r border-[#111] flex-col justify-between hidden sm:flex z-50">
         <div>
           <div className="h-24 flex items-center justify-center lg:justify-start lg:px-6 border-b border-[#111] text-center lg:text-left flex-col lg:items-start lg:justify-center">
-            <h1 className="text-2xl font-black tracking-tighter neon-text-lime italic hidden lg:block uppercase">ORTIZ<span className="text-white">TATTOO</span></h1>
+            <h1 className="text-2xl font-black tracking-tighter neon-text-lime italic hidden lg:block uppercase">01<span className="text-white">TATTOO</span></h1>
             <Zap className="text-lime-400 w-8 h-8 lg:hidden mb-2" />
             <p className="text-[10px] uppercase tracking-[0.3em] opacity-50 mt-1 hidden lg:block">Cyber-Street Studio</p>
           </div>
@@ -370,7 +370,7 @@ function DashboardInicio({ state, updateState, setActiveTab }: any) {
                        <p className="text-[10px] text-gray-500 mt-0.5 font-mono">{app.phone} • Há alguns dias</p>
                      </div>
                      <a 
-                        href={`https://wa.me/${app.phone.replace(/\D/g,'')}?text=Salve%20${encodeURIComponent(app.clientName)},%20aqui%20é%20do%20Estúdio%20Ortiz%20Tattoo.%20Como%20tá%20a%20cicatrização%20da%20tattoo?%20Lembre-se%20de%20lavar%20com%20sabonete%20neutro%20e%20hidratar!`}
+                        href={`https://wa.me/${app.phone.replace(/\D/g,'')}?text=Salve%20${encodeURIComponent(app.clientName)},%20aqui%20é%20do%20Estúdio%2001%20Tattoo.%20Como%20tá%20a%20cicatrização%20da%20tattoo?%20Lembre-se%20de%20lavar%20com%20sabonete%20neutro%20e%20hidratar!`}
                         target="_blank"
                         rel="noreferrer"
                         className="px-3 py-2 bg-[#9333ea] hover:bg-white text-white hover:text-black text-[9px] font-black uppercase tracking-widest rounded transition-colors shadow-[0_0_10px_rgba(147,51,234,0.3)]"
@@ -537,7 +537,7 @@ function DashboardAgenda({ state, updateState }: any) {
                   <p className="text-[10px] text-gray-500 font-mono mt-1">{wait.phone} • Estilo: {wait.style}</p>
                 </div>
                 <a 
-                   href={`https://wa.me/${wait.phone.replace(/\D/g,'')}?text=Salve%20${encodeURIComponent(wait.clientName)},%20aqui%20é%20do%20Estúdio%20Ortiz%20Tattoo.%20Apareceu%20uma%20vaga%20na%20agenda!`}
+                   href={`https://wa.me/${wait.phone.replace(/\D/g,'')}?text=Salve%20${encodeURIComponent(wait.clientName)},%20aqui%20é%20do%20Estúdio%2001%20Tattoo.%20Apareceu%20uma%20vaga%20na%20agenda!`}
                    target="_blank"
                    rel="noreferrer"
                    className="px-3 py-2 bg-[#9333ea] text-white text-[10px] font-black uppercase tracking-widest rounded-lg hover:bg-white hover:text-[#9333ea] transition-all"

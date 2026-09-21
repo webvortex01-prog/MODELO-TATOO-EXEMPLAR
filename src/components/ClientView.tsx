@@ -207,7 +207,7 @@ export function ClientView() {
       <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'glass border-b border-light/5 py-4 bg-black/80 backdrop-blur-md border-b border-white/5' : 'bg-transparent py-6'}`}>
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           <div className="text-2xl font-black tracking-tighter text-white italic flex items-center gap-2">
-            ORTIZ<span className="text-[#adff2f]">TATTOO</span>
+            01<span className="text-[#adff2f]">TATTOO</span>
           </div>
           
           <div className="hidden md:flex items-center gap-8 text-sm uppercase tracking-widest font-bold text-gray-400">
@@ -804,7 +804,7 @@ export function ClientView() {
       <footer className="bg-[#050505] border-t border-[#9333ea]/30 pt-20 pb-8 px-6 relative z-10">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="md:col-span-1">
-            <div className="text-3xl font-black tracking-tighter text-white italic mb-4">ORTIZ<span className="text-[#adff2f]">TATTOO</span></div>
+            <div className="text-3xl font-black tracking-tighter text-white italic mb-4">01<span className="text-[#adff2f]">TATTOO</span></div>
             <p className="text-sm text-gray-500 mb-8 leading-relaxed">Elevando o padrão das ruas. Tatuagens com atitude, biossegurança e qualidade irretocável em cada detalhe traçado no corpo.</p>
             <div className="flex gap-4">
               <a href="#" className="w-12 h-12 rounded-full glass border border-white/10 flex items-center justify-center hover:bg-[#9333ea] hover:border-[#9333ea] hover:shadow-[0_0_15px_rgba(147,51,234,0.5)] transition-all text-white"><Instagram className="w-6 h-6"/></a>
@@ -842,7 +842,7 @@ export function ClientView() {
         </div>
         
         <div className="max-w-7xl mx-auto border-t border-white/10 pt-8 text-center text-xs text-gray-600 uppercase tracking-widest font-bold">
-          Ortiz Tattoo © {today.getFullYear()} - Todos os direitos reservados. Underground Culture.
+          01 Tattoo Studio © {today.getFullYear()} - Todos os direitos reservados. Underground Culture.
         </div>
       </footer>
 
